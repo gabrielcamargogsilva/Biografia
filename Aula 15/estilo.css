@@ -1,0 +1,152 @@
+/* DOCUMENTO CSS BIOGRAFIA */
+
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+
+/* RESET CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #BADBC0;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #64936D;
+  padding: 20px;
+  height: 8vw;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 0;
+  color: rgb(209, 209, 209);
+  font-family: "Marcellus SC", serif;
+  font-style: normal;
+}
+
+nav {
+  text-align: center;
+font-size: 17px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(216, 216, 216);
+}
+
+nav a:hover {
+  color: #000;
+}
+
+main.folha {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 800px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-left: 5px solid #ddd;
+}
+
+section h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+section p {
+  text-align: justify;
+  line-height: 1.5;
+  color: #666;
+}
+
+section ul {
+  padding: 0;
+  margin: 0;
+}
+
+section li {
+  margin-bottom: 5px;
+}
+
+section img {
+  width: 100%;
+  margin-bottom: 10px;
+
+
+
+}
+
+section table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+section th,
+section td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+  color: #333;
+}
+
+section thead th {
+  background-color: #e0e0e0;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
